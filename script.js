@@ -113,7 +113,7 @@ alert("Hello " + fname + " " + lname + ",\nWelcome to the JavaScript");
 
 //var name = window.prompt("What is your name: ");
 //document.write("Hey " + name + "How are You?");
-//alert("Hey " + name + "How are You?");
+window.alert("Hey " + name + "How are You?");
 
 //let class_taken = window.prompt("Enter the course");
 //document.write("Hello " + name + "Welcome to the " + class_taken);
@@ -163,6 +163,14 @@ else
 /*Using a set of Comparison and Logical operators, write an application that evaluates to true and displays the result within the console window.
 Using a set of Comparison and Logical operators, write an application that evaluates to false and displays the result within the console window. The application cannot use the same operators used in the previous application.
 */
-let a = 10;
-if (a < 10)
-    
+/*
+let a = 5;
+if (a < 10) {
+    document.write("The number is less than 10");
+}
+else if (a > 10) {
+    document.write("The number is greater than 10");
+}
+else
+    document.write("The number is equal to 10");
+*/
