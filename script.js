@@ -85,5 +85,84 @@ document.write(someString);
 //9)Create a variable that produces a null value in the console window.
 //Then, create a variable that produces an undefined value in the console window.
 
+let value = null;
+console.log(value);
+
+let value2;
+console.log(value2);
 
 
+//10) Use the unary typeof operator on various literals to return the following types 
+//within the console window: string, number, Boolean, object, and undefined.
+
+typeof ("John"); //string
+typeof (10); // number
+typeof (true); //boolean
+typeof [1, 2, 3, 4]; //object
+typeof name; //undefined
+
+//11) Within an alert box, use the concatenation operator (+) to display text in the alert box that appears as follows:
+
+//Hello Zak Ruvalcaba, welcome to the JavaScript class!
+let fname = "Ranjitha";
+let lname="KN"
+alert("Hello " + fname + " " + lname + ",\nWelcome to the JavaScript");
+
+//12) Replace the hardcoded string of your name with a prompt that asks the user for their name. 
+//The prompt’s response will now be captured in the name variable.
+
+//var name = window.prompt("What is your name: ");
+//document.write("Hey " + name + "How are You?");
+//alert("Hey " + name + "How are You?");
+
+//let class_taken = window.prompt("Enter the course");
+//document.write("Hello " + name + "Welcome to the " + class_taken);
+
+//13) Declare a variable called x and assign it a value of 10.
+//Declare a variable called y and assign it a value of 20.
+//Display the sum of those two numbers in the console window.
+let x = 10, y = 20;
+z = x + y;
+document.write("The sum of two numbers is:" + z);
+
+//14) Declare a variable called x and assign it a value of 20.
+//Add and assign 20 to that variable and display the result in the console window.
+//The result should be 40.
+
+let x1 = 20;
+x1 += 20;
+document.write("The sum of two numbers is:" + x1);
+
+//15) Declare a variable called x and assign it a value of 20.
+//Multiply and assign 5 to that variable and display the result in the console window.
+//The result should be 100.
+
+let x2 = 20;
+x2 *= 5;
+document.write("The mul of two numbers is:" + x2);
+//16) Declare a variable called x and assign it a value that equals the remainder of 20 divided by 3.
+//Divide and assign 1 to that variable and display the result in the console window.
+//The result should be 2. If you got 6.66 try again.
+
+let x3 = 20 % 3;
+document.write("The remainder of two numbers is:" + x3);
+
+//17)Using a set of Comparison and Logical operators, write an application that evaluates to true 
+//and displays the result within the console window.
+//App to display the number even or odd
+
+/*let a = prompt("Enter an integer number");
+//let a = 8;
+if (a % 2 == 0) {
+    document.write("Even number");
+}
+else
+    document.write("Odd number");*/
+    
+
+/*Using a set of Comparison and Logical operators, write an application that evaluates to true and displays the result within the console window.
+Using a set of Comparison and Logical operators, write an application that evaluates to false and displays the result within the console window. The application cannot use the same operators used in the previous application.
+*/
+let a = 10;
+if (a < 10)
+    
